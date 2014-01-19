@@ -32,10 +32,10 @@ Example use in a rake file
       puts build.what_time_was_it_generated #how to access build time anywhere within rakefile
     end
 
-   task :update_assemblies do
-     assembly = Buildify::AssemblyVersion.new(:company_name => "Ink Inc", :product_name => "Inc Wells for Inks", :version => build.what_version_is_this , :build_time => build.what_time_was_it_generated, :paths => ["MyVb.netProject/AssemblyInfo.vb","MyC#Project/Properties/AssemblyInfo.cs","MyOtherC#Project/Properties/AssemblyInfo.cs"])
-     assembly.version_assemblies #updates the assemblyInfo files dictated in the options hash above
-   end
+    task :update_assemblies do
+      assembly = Buildify::AssemblyVersion.new(:company_name => "Ink Inc", :product_name => "Inc Wells for Inks", :version => build.what_version_is_this , :build_time => build.what_time_was_it_generated, :paths => ["MyVb.netProject/AssemblyInfo.vb","MyC#Project/Properties/AssemblyInfo.cs","MyOtherC#Project/Properties/AssemblyInfo.cs"])
+      assembly.version_assemblies #updates the assemblyInfo files dictated in the options hash above
+    end
 
 ####Example 2 is reading the build variables and making them accessible
 
