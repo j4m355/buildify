@@ -52,11 +52,11 @@ Or install it yourself as:
 
 ####Options hash for updating assemblies:
 
-   :company_name => "Company Name",
-   :product_name => "My crappy product",
-   :version => my automatically generated version number ,
-   :build_time => my automatically generated time,
-   :paths => ["project1/AssemblyInfo.vb","project2/Properties/AssemblyInfo.cs"]
+    :company_name => "Company Name",
+    :product_name => "My crappy product",
+    :version => my automatically generated version number ,
+    :build_time => my automatically generated time,
+    :paths => ["project1/AssemblyInfo.vb","project2/Properties/AssemblyInfo.cs"]
 
 
 ## Contributing
