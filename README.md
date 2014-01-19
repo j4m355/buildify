@@ -20,7 +20,7 @@ Or install it yourself as:
 
 Example use in a rake file
 
-##Example 1 is for writing to assemblyInfo.vb or .cs before a build takes place - note "generate_mode"
+####Example 1 is for writing to assemblyInfo.vb or .cs before a build takes place - note "generate_mode"
 
    require 'buildify'
 
@@ -37,7 +37,7 @@ Example use in a rake file
      assembly.version_assemblies #updates the assemblyInfo files dictated in the options hash above
    end
 
-##Example 2 is reading the build variables and making them accessible
+####Example 2 is reading the build variables and making them accessible
 
     require 'buildify'
 
@@ -50,13 +50,13 @@ Example use in a rake file
     end
 
 
-##Options hash for updating assemblies:
+####Options hash for updating assemblies:
 
-:company_name => "Company Name",
-:product_name => "My crappy product",
-:version => my automatically generated version number ,
-:build_time => my automatically generated time,
-:paths => ["project1/AssemblyInfo.vb","project2/Properties/AssemblyInfo.cs"]
+   :company_name => "Company Name",
+   :product_name => "My crappy product",
+   :version => my automatically generated version number ,
+   :build_time => my automatically generated time,
+   :paths => ["project1/AssemblyInfo.vb","project2/Properties/AssemblyInfo.cs"]
 
 
 ## Contributing
