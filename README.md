@@ -22,15 +22,15 @@ Example use in a rake file
 
 ####Example 1 is for writing to assemblyInfo.vb or .cs before a build takes place - note "generate_mode"
 
-   require 'buildify'
+    require 'buildify'
 
-   build = Buildify::Version.new
+    build = Buildify::Version.new
 
-   task :setVersionGenerateMode do
-     build.generate_mode #generates a unique build number
-     puts build.what_version_is_this #how to access version number anywhere within rakefile
-     puts build.what_time_was_it_generated #how to access build time anywhere within rakefile
-   end
+    task :setVersionGenerateMode do
+      build.generate_mode #generates a unique build number
+      puts build.what_version_is_this #how to access version number anywhere within rakefile
+      puts build.what_time_was_it_generated #how to access build time anywhere within rakefile
+    end
 
    task :update_assemblies do
      assembly = Buildify::AssemblyVersion.new(:company_name => "Ink Inc", :product_name => "Inc Wells for Inks", :version => build.what_version_is_this , :build_time => build.what_time_was_it_generated, :paths => ["MyVb.netProject/AssemblyInfo.vb","MyC#Project/Properties/AssemblyInfo.cs","MyOtherC#Project/Properties/AssemblyInfo.cs"])
