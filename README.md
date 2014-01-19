@@ -18,7 +18,7 @@ Or install it yourself as:
 
 ## Usage
 
-Example use in a rake file
+###Example use in a rake file
 
 ####Example 1 is for writing to assemblyInfo.vb or .cs before a build takes place - note "generate_mode"
 
