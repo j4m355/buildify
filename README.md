@@ -1,6 +1,7 @@
 # Buildify
 
-Generate a unique build number that conforms to the Microsoft BuildVersion property spec.  It also has the ability to update a solutions assemblies with new version number.
+Generates a unique build number that conforms to the Microsoft BuildVersion property spec.  
+It also has the ability to update a solutions assemblies with new version number.  Also just for reference it outputs a VERSION file and a BUILDTIME file.
 
 ## Installation
 
