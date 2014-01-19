@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f5ef2d0-99fd-4c04-a886-ae813f65df2b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Rakefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/buildify/assembly_version.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/buildify.gemspec" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/buildify.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/buildify/version.rb" />
-    </list>
+    <list default="true" id="7f5ef2d0-99fd-4c04-a886-ae813f65df2b" name="Default" comment="" />
     <ignored path="buildify.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -44,7 +34,7 @@
       <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="0" selection-start="1995" selection-end="1995" vertical-scroll-proportion="1.3268293" vertical-offset="204" max-vertical-offset="1258">
+            <state line="52" column="3" selection-start="1708" selection-end="1708" vertical-scroll-proportion="0.8569106" vertical-offset="357" max-vertical-offset="1258">
               <folding />
             </state>
           </provider>
@@ -284,12 +274,18 @@
       <created>1390141186734</created>
       <updated>1390141186734</updated>
     </task>
+    <task id="LOCAL-00001" summary="v0.0.6&#10;">
+      <created>1390156460721</created>
+      <updated>1390156460721</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1870" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -322,6 +318,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="v0.0.6&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="v0.0.6&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -357,7 +355,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="0" selection-start="1995" selection-end="1995" vertical-scroll-proportion="1.3268293" vertical-offset="204" max-vertical-offset="1258">
+        <state line="52" column="3" selection-start="1708" selection-end="1708" vertical-scroll-proportion="0.8569106" vertical-offset="357" max-vertical-offset="1258">
           <folding />
         </state>
       </provider>
